@@ -1,0 +1,47 @@
+Library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity alu is
+port(
+SrcA,SrcB: in std_logic_vector( 31 downto 0);
+Alures : out std_logic_vector( 31 downto 0);
+Aluop:  in std_logic_vector(3 downto 0));
+end alu;
+
+Architecture behaviour of alu is
+process(SrcA,SrcB,Aluop)
+begin
+if(Aluop(3) ='0')then
+if(Aluop = "0000")then
+ Alures<= SrcA AND SrcB;
+ end if;
+if(Aluop = "0001")then
+ Alures<= SrcA OR SrcB;
+ end if;
+if(Aluop = "0010")then
+ Alures<= std_logic_vector(unsigned(SrcA) + unsigned(SrcB));
+end if;
+if(Aluop = "0011")then
+ Alures<= std_logic_vector(unsigned(SrcA) - unsigned(SrcB));
+end if;
+if(Aluop ="0100")then
+ Alures<= std_logic_vector(unsigned(SrcA) * unsigned(SrcB));
+ end if;
+if(Aluop ="0101")then
+ Alures<= std_logic_vector(unsigned(SrcA) / unsigned(SrcB));
+ end if;
+if(Aluop = "0110")then
+ Alures<= SrcA NOR SrcB;
+ end if;
+if(Aluop = "0111")then
+if(SrcA < SrcB)then
+ Alures <= (31 downto 1=>'0') & '1' ;
+ else
+ Alures <= (31 downto 0 => '0');
+ end if;
+else
+Alures <= (31 downto 0 =>'0');
+end if;
+end process;
+end behaviour;

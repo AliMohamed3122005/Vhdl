@@ -1,0 +1,32 @@
+# Compile of try.vhd failed with 1 errors.
+# Compile of try.vhd failed with 1 errors.
+# Compile of try.vhd failed with 1 errors.
+# Compile of try.vhd failed with 2 errors.
+# Compile of try.vhd failed with 1 errors.
+# Compile of try.vhd was successful.
+vsim -gui work.parity_checker
+# vsim -gui work.parity_checker 
+# Start time: 11:33:14 on Oct 04,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.parity_checker(behaviour)
+add wave -position insertpoint  \
+sim:/parity_checker/data \
+sim:/parity_checker/parity_type \
+sim:/parity_checker/p
+run
+run
+run
+force -freeze sim:/parity_checker/data 10110011 0
+run
+run
+force -freeze sim:/parity_checker/parity_type 0 0
+run
+force -freeze sim:/parity_checker/data 11111111 0
+force -freeze sim:/parity_checker/parity_type 0 0
+run
+force -freeze sim:/parity_checker/parity_type 1 0
+run
+# End time: 11:48:35 on Oct 04,2026, Elapsed time: 0:15:21
+# Errors: 0, Warnings: 10

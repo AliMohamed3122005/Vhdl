@@ -1,0 +1,50 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Eparity_checker
+Z0 w1791102699
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 4
+Z3 dD:/Studying/term 5/Co/parity_checker4
+Z4 8try.vhd
+Z5 Ftry.vhd
+l0
+L4 1
+VgNXA3XWz^]WNH@[oiGg5U3
+!s100 HzlKL[T5bnIa`6f0YW;0^2
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1791104572
+!i10b 1
+Z8 !s108 1791104572.000000
+Z9 !s90 -reportprogress|300|try.vhd|
+Z10 !s107 try.vhd|
+!i113 1
+Z11 tExplicit 1 CvgOpt 0
+Abehaviour
+R1
+R2
+Z12 DEx4 work 14 parity_checker 0 22 gNXA3XWz^]WNH@[oiGg5U3
+!i122 4
+l14
+Z13 L13 4
+Z14 V2K<<HEkFZ?T_B7@iPlS2S3
+Z15 !s100 i1WIgV_5Q`8>EGcSa9RfW1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11

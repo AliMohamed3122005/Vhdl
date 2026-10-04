@@ -1,0 +1,18 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity parity_checker is
+port(
+data : in std_logic_vector(7 downto 0);
+parity_type : in std_logic;
+p : out std_logic);
+end parity_checker;
+
+
+
+architecture behaviour of parity_checker is
+begin
+p <= data(7) XOR  data(6) XOR  data(5) XOR data(4) XOR data(3) XOR data(2) XOR data(1) XOR data(0) Xor type ;
+end behaviour;
+     	
+	

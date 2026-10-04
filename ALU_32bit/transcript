@@ -1,0 +1,147 @@
+# Compile of try.vhd failed with 1 errors.
+# Compile of try.vhd failed with 1 errors.
+# Compile of try.vhd failed with 1 errors.
+# Compile of try.vhd failed with 1 errors.
+# Compile of try.vhd failed with 1 errors.
+# Compile of try.vhd failed with 8 errors.
+# Compile of try.vhd failed with 8 errors.
+# Compile of try.vhd failed with 8 errors.
+# Compile of try.vhd failed with 4 errors.
+# Compile of try.vhd failed with 3 errors.
+# Compile of try.vhd failed with 3 errors.
+# Compile of try.vhd failed with 2 errors.
+# Compile of try.vhd failed with 1 errors.
+# Compile of try.vhd failed with 2 errors.
+# Compile of try.vhd failed with 2 errors.
+# Compile of try.vhd failed with 2 errors.
+# Compile of try.vhd failed with 4 errors.
+# Compile of try.vhd failed with 2 errors.
+# Compile of try.vhd was successful.
+vsim -gui work.counter_bit
+# vsim -gui work.counter_bit 
+# Start time: 17:31:18 on Oct 04,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.counter_bit(behaviour)
+add wave -position insertpoint  \
+sim:/counter_bit/clk \
+sim:/counter_bit/rst \
+sim:/counter_bit/load \
+sim:/counter_bit/data_in \
+sim:/counter_bit/data_out \
+sim:/counter_bit/temp
+force -freeze sim:/counter_bit/clk 1 0
+force -freeze sim:/counter_bit/rst 0 0
+force -freeze sim:/counter_bit/load 0 0
+force -freeze sim:/counter_bit/data_in 0000 0
+run
+force -freeze sim:/counter_bit/data_out 0000 0
+run
+# Compile of try.vhd failed with 2 errors.
+vsim -gui work.counter_bit
+# End time: 17:35:12 on Oct 04,2026, Elapsed time: 0:03:54
+# Errors: 0, Warnings: 31
+# vsim -gui work.counter_bit 
+# Start time: 17:35:13 on Oct 04,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.counter_bit(behaviour)
+add wave -position insertpoint  \
+sim:/counter_bit/clk \
+sim:/counter_bit/rst \
+sim:/counter_bit/load \
+sim:/counter_bit/data_in \
+sim:/counter_bit/data_out \
+sim:/counter_bit/temp
+force -freeze sim:/counter_bit/clk 1 0
+force -freeze sim:/counter_bit/clk 1 0
+force -freeze sim:/counter_bit/rst 0 0
+force -freeze sim:/counter_bit/load 0 0
+force -freeze sim:/counter_bit/data_in 0000 0
+run
+# Compile of try.vhd was successful.
+vsim -gui work.counter_bit
+# End time: 17:38:21 on Oct 04,2026, Elapsed time: 0:03:08
+# Errors: 0, Warnings: 2
+# vsim -gui work.counter_bit 
+# Start time: 17:38:21 on Oct 04,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.counter_bit(behaviour)
+add wave -position insertpoint  \
+sim:/counter_bit/clk \
+sim:/counter_bit/rst \
+sim:/counter_bit/load \
+sim:/counter_bit/data_in \
+sim:/counter_bit/data_out \
+sim:/counter_bit/temp
+force -freeze sim:/counter_bit/clk 1 0
+force -freeze sim:/counter_bit/rst 0 0
+force -freeze sim:/counter_bit/load 1 0
+force -freeze sim:/counter_bit/data_in 0000 0
+run
+force -freeze sim:/counter_bit/load 0 0
+run
+force -freeze sim:/counter_bit/clk 1 0, 0 {50 ps} -r 100
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 300 ps  Iteration: 0  Instance: /counter_bit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 300 ps  Iteration: 0  Instance: /counter_bit
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 400 ps  Iteration: 0  Instance: /counter_bit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 400 ps  Iteration: 0  Instance: /counter_bit
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ps  Iteration: 0  Instance: /counter_bit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ps  Iteration: 0  Instance: /counter_bit
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 600 ps  Iteration: 0  Instance: /counter_bit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 600 ps  Iteration: 0  Instance: /counter_bit
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 700 ps  Iteration: 0  Instance: /counter_bit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 700 ps  Iteration: 0  Instance: /counter_bit
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 800 ps  Iteration: 0  Instance: /counter_bit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 800 ps  Iteration: 0  Instance: /counter_bit
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 900 ps  Iteration: 0  Instance: /counter_bit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 900 ps  Iteration: 0  Instance: /counter_bit
+force -freeze sim:/counter_bit/load 1 0
+run
+run
+run
+run
+force -freeze sim:/counter_bit/load 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+# Project file D:/Studying/term 5/Co/new.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# End time: 20:57:21 on Oct 04,2026, Elapsed time: 3:19:00
+# Errors: 0, Warnings: 16
